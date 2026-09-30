@@ -1,7 +1,13 @@
-pycache/
+__pycache__/
 *.pyc
 .venv/
 venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# Runtime / generated files
 backups/
 *.backup
 *.rsc

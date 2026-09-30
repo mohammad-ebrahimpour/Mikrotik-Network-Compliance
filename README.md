@@ -61,7 +61,7 @@ Each implemented check returns one of:
 
 The current score is an indicative project-defined metric calculated from the checks performed:
 
-`PASS checks / Total checks * 100
+`PASS checks / Total checks * 100`
 
 All checks currently have equal weight.
 
@@ -97,11 +97,11 @@ The current implementation intentionally keeps the assessment logic in two execu
 
 Mikrotik_compliance.py
 
-Console-based assessment.
+Runs the assessment and displays the results in the terminal.
 
 Mikrotik_compliance_HTML.py
 
-Assessment with HTML report generation.
+Runs the assessment and generates an HTML assessment report.
 
 This keeps the project focused while demonstrating:
 

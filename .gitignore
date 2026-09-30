@@ -1,0 +1,8 @@
+pycache/
+*.pyc
+.venv/
+venv/
+backups/
+*.backup
+*.rsc
+*.html
